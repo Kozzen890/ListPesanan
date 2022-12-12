@@ -20,3 +20,44 @@ body {
   height: 24px;
   fill: white;
 }
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-sidebar {
+  width: 256px;
+  height: 787px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-900);
+}
+.home-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-image {
+  height: 2rem;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.home-text {
+  color: var(--dl-color-gray-white);
+  align-self: flex-start;
+  margin-bottom: var(--dl-space-space-threeunits);
+  background-color: var(--dl-color-gray-500);
+}
+.home-text1 {
+  color: var(--dl-color-gray-white);
+  margin-bottom: var(--dl-space-space-threeunits);
+  background-color: var(--dl-color-gray-500);
+}
+.home-text2 {
+  margin-bottom: var(--dl-space-space-threeunits);
+}
