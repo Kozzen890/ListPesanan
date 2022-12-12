@@ -1,6 +1,3 @@
-<?php 
-include "koneksi.php";
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -29,65 +26,124 @@ include "koneksi.php";
         <div class="col-md-8 mx-auto text-center">
           <!-- <h6 class="text-primary">WHY CHOOSE US</h6> -->
           <img src="assets/img/resto.png" alt="" style="width: 200px ; height: 120px ;" class="mt-4">
-          <h4 class="mt-3">Daftar Pesanan</h4>
+          <h4 class="mt-3 mb-5">Daftar Pesanan</h4>
         </div>
-        <table class="table table-bordered mt-5">
-          <thead>
-            <tr>
-              <th scope="col">ID</th>
-              <th scope="col">NO</th>
-              <th scope="col">Menu Pesanan</th>
-              <th scope="col">Qty</th>
-              <th scope="col">Keterangan</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row" rowspan="3">1</th>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">ID</th>
-              <th scope="col">NO</th>
-              <th scope="col">Menu Pesanan</th>
-              <th scope="col">Qty</th>
-              <th scope="col">Keterangan</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row" rowspan="3">2</th>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="table table-bordered p-5">
-          <thead>
-            <tr>
-              <th scope="col">ID</th>
-              <th scope="col">NO</th>
-              <th scope="col">Menu Pesanan</th>
-              <th scope="col">Qty</th>
-              <th scope="col">Keterangan</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row" rowspan="3">3</th>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="col-lg-6 bg-secondary bg-gradient p-5">
+          <div class="col-lg-12 bg-white align-center mx-auto w-80 p-2">
+            <h4 class="mt-3 ms-2">001</h4>
+            <table class="table table-bordered mt-2 mb-4 me-2 ms-auto me-auto" style="width: 80%;">
+            <thead>
+              <tr>
+                <th scope="col" style="width:10%">NO</th>
+                <th scope="col">Menu Pesanan</th>
+                <th scope="col" style="width:10%">Qty</th>
+                <th scope="col">Keterangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Nasi Goreng Special</td>
+                <td>2</td>
+                <td>Pedas</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Ice Tea</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+        <div class="col-lg-6 bg-secondary bg-gradient p-5">
+          <div class="col-lg-12 bg-white align-center mx-auto w-80 p-2">
+            <h4 class="mt-3 ms-2">002</h4>
+            <table class="table table-bordered mt-2 mb-4 me-2 ms-auto me-auto" style="width: 80%;">
+            <thead>
+              <tr>
+                <th scope="col" style="width:10%">NO</th>
+                <th scope="col">Menu Pesanan</th>
+                <th scope="col" style="width:10%">Qty</th>
+                <th scope="col">Keterangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Nasi Goreng Special</td>
+                <td>2</td>
+                <td>Pedas</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Ice Tea</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+        <div class="col-lg-6 bg-secondary bg-gradient mb-3 p-5">
+          <div class="col-lg-12 bg-white align-center mx-auto w-80 p-2">
+            <h4 class="mt-3 ms-2">003</h4>
+            <table class="table table-bordered mt-2 mb-4 me-2 ms-auto me-auto" style="width: 80%;">
+            <thead>
+              <tr>
+                <th scope="col" style="width:10%">NO</th>
+                <th scope="col">Menu Pesanan</th>
+                <th scope="col" style="width:10%">Qty</th>
+                <th scope="col">Keterangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Nasi Goreng Special</td>
+                <td>2</td>
+                <td>Pedas</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Ice Tea</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+        <div class="col-lg-6 bg-secondary bg-gradient mb-3 p-5">
+          <div class="col-lg-12 bg-white align-center mx-auto w-80 p-2">
+            <h4 class="mt-3 ms-2">004</h4>
+            <table class="table table-bordered mt-2 mb-4 me-2 ms-auto me-auto" style="width: 80%;">
+            <thead>
+              <tr>
+                <th scope="col" style="width:10%">NO</th>
+                <th scope="col">Menu Pesanan</th>
+                <th scope="col" style="width:10%">Qty</th>
+                <th scope="col">Keterangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Nasi Goreng Special</td>
+                <td>2</td>
+                <td>Pedas</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Ice Tea</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
       </div>
     </div>
     <footer class="bg-secondary text-white text-center mt-5 pb-2 justify-content-center">
