@@ -15,3 +15,8 @@ body {
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+.home-icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
