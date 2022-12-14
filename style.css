@@ -61,3 +61,10 @@ body {
 .home-text2 {
   margin-bottom: var(--dl-space-space-threeunits);
 }
+footer {
+  position: fixed;
+  bottom: 0;
+}
+body {
+  padding-bottom: 100px;
+}
