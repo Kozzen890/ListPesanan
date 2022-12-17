@@ -1,13 +1,14 @@
 <?php  
-$servername = "localhost";
-$database = "dinusresto";
-$username = "root";
-$password = "root";
+$host="localhost";
+$port=3306;
+$user="root";
+$password="root";
+$dbname="dinusresto";
 
-$koneksi = mysqli_connect($servername,$database,$username,$password);
-if(!$koneksi){
-  die("Koneksi Gagal : " . mysqli_connect_error());
-}
-echo "Koneksi Berhasil";
-mysqli_close($koneksi);
+$con = new mysqli($host, $user, $password, $dbname, $port)
+	or die ('Could not connect to the database server' . mysqli_connect_error());
+
+$con->close();
+
+
 ?>
